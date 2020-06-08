@@ -1,12 +1,14 @@
-﻿using System;
+﻿using CursoCSharp.EstruturaDeControle;
+using CursoCSharp.Fundamentos;
+using System;
 using System.Collections.Generic;
 
-using CursoCSharp.Fundamentos;
-using CursoCSharp.EstruturaDeControle;
-
-namespace CursoCSharp {
-    class Program {
-        static void Main(string[] args) {
+namespace CursoCSharp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
             var central = new CentralDeExercicios(new Dictionary<string, Action>() {
                 //Fundamentos
                 {"Primeiro Programa - Fundamentos", PrimeiroPrograma.Executar},

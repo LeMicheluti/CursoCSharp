@@ -1,9 +1,12 @@
 ﻿using System;
 using System.Globalization;
 
-namespace CursoCSharp.Fundamentos {
-    class FormatandoNumero {
-        public static void Executar() {
+namespace CursoCSharp.Fundamentos
+{
+    class FormatandoNumero
+    {
+        public static void Executar()
+        {
             double valor = 15.175;
 
             Console.WriteLine(valor.ToString("F1")); //mostra um caractere

@@ -1,10 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace CursoCSharp.Fundamentos {
-    class OperadoresAtribuicao {
-        public static void Executar() {
+namespace CursoCSharp.Fundamentos
+{
+    class OperadoresAtribuicao
+    {
+        public static void Executar()
+        {
             var num = 3;
             num = 7;
             num += 10; // num = num + 10;
@@ -17,8 +18,8 @@ namespace CursoCSharp.Fundamentos {
             int a = 1;
             int b = a;
 
-            a++; // a = a + 1 operador unário de incremento
-            b--; // b = b - 1 operador unário de decremento
+            a++; // a = a + 1; operador unário de incremento
+            b--; // b = b - 1; operador unário de decremento
 
             Console.WriteLine($"{a} , {b}");
 

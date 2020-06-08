@@ -1,9 +1,12 @@
 ﻿using System;
 using System.Globalization;
 
-namespace CursoCSharp.Fundamentos {
-    class LendoDados {
-        public static void Executar() {
+namespace CursoCSharp.Fundamentos
+{
+    class LendoDados
+    {
+        public static void Executar()
+        {
             Console.Write("Qual é o seu nome? ");
             string nome = Console.ReadLine();
 
@@ -12,7 +15,7 @@ namespace CursoCSharp.Fundamentos {
 
             Console.Write("Qual é o seu salário? ");
             double salario = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture); //somente aceita o ponto e nao o virgula para casas decimais
-            
+
             Console.WriteLine($"{nome} {idade} R${salario}");
         }
     }

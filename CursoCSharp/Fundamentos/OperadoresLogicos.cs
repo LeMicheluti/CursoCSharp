@@ -1,10 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace CursoCSharp.Fundamentos {
-    class OperadoresLogicos {
-        public static void Executar() {
+namespace CursoCSharp.Fundamentos
+{
+    class OperadoresLogicos
+    {
+        public static void Executar()
+        {
             var executouTrabalho1 = true;
             var executouTrabalho2 = false;
 
@@ -17,7 +18,7 @@ namespace CursoCSharp.Fundamentos {
             bool comprouTV32 = executouTrabalho1 ^ executouTrabalho2;
             Console.WriteLine($"Comprou TV 32? {comprouTV32}");
 
-            Console.WriteLine("Mair Saldável? {0}", !comprouSorvete);
+            Console.WriteLine("Mais Saudável? {0}", !comprouSorvete);
         }
     }
 }

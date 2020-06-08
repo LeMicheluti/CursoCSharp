@@ -1,10 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace CursoCSharp.Fundamentos {
-    class Conversoes {
-        public static void Executar() {
+namespace CursoCSharp.Fundamentos
+{
+    class Conversoes
+    {
+        public static void Executar()
+        {
             #region conversão implicita
             int inteiro = 10;
             double quebrado = inteiro;
@@ -31,10 +32,9 @@ namespace CursoCSharp.Fundamentos {
             int.TryParse(palavra, out numero);
             Console.WriteLine($"Resultado 1 {numero}");
 
-            Console.Write("Digite o priemiro número: ");
+            Console.Write("Digite o segundo número: ");
             int.TryParse(Console.ReadLine(), out int numero2);
             Console.WriteLine($"Resultado 2 {numero2}");
-
             #endregion 
         }
     }
