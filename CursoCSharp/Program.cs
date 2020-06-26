@@ -58,6 +58,9 @@ namespace CursoCSharp
                 {"Valor Vs Referência - Classes e Métodos", ValorVsReferencia.Executar},
                 {"Parâmetros Por Referência - Classes e Métodos", ParametrosPorReferencia.Executar},
                 {"Parâmetro com Valor Padrão - Classes e Métodos", ParametroPadrao.Executar},
+
+                // Coleções
+                {"Array - Classes e Métodos", Colecoes.Array.Executar},
             });
 
             central.SelecionarEExecutar();
