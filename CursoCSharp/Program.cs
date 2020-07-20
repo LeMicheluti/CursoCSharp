@@ -1,4 +1,5 @@
-﻿using CursoCSharp.ClassesEMetodos;
+﻿using CursoCSharp.Api;
+using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Colecoes;
 using CursoCSharp.EstruturaDeControle;
 using CursoCSharp.Excecoes;
@@ -94,6 +95,9 @@ namespace CursoCSharp
                 // Exceções
                 {"Primeira Exceção - Exceções", PrimeiraExcecao.Executar},
                 {"Exceções Personalizadas - Exceções", ExcecoesPersonalizadas.Executar},
+
+                // Api
+                {"Primeiro Arquivo - Usando Api", PrimeiroArquivo.Executar},
             });
 
             central.SelecionarEExecutar();
