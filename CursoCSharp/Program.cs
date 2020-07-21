@@ -101,6 +101,7 @@ namespace CursoCSharp
                 {"Lendos Arquivos - Usando Api", LendoArquivos.Executar},
                 {"Exemplo FileInfo - Usando Api", ExemploFileInfo.Executar},
                 {"Diretórios - Usando Api", Diretorios.Executar},
+                {"Exemplo DirectoryInfo - Usando Api", ExemploDirectoryInfo.Executar},
             });
 
             central.SelecionarEExecutar();
