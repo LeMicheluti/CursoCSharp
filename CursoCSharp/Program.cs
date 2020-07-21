@@ -6,6 +6,7 @@ using CursoCSharp.Excecoes;
 using CursoCSharp.Fundamentos;
 using CursoCSharp.MetodosEFuncoes;
 using CursoCSharp.OO;
+using CursoCSharp.TopicosAvancados;
 using System;
 using System.Collections.Generic;
 
@@ -105,6 +106,9 @@ namespace CursoCSharp
                 {"Exemplo Path - Usando Api", ExemploPath.Executar},
                 {"Exemplo DateTime - Usando Api", ExemploDateTime.Executar},
                 {"Exemplo TimeSpan - Usando Api", ExemploTimeSpan.Executar},
+
+                // Tópicos Avançados
+                {"LINQ #01 - Tópicos Avançados", LINQ1.Executar},
             });
 
             central.SelecionarEExecutar();
